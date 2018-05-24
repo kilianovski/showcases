@@ -1,4 +1,9 @@
 module Main where
 
+import           Robot.Programs
+
+import qualified Robot.Interpreters.Console as Console
+
 main :: IO ()
-main = putStrLn "I am watching you.."
+main = do
+    Console.run drawSquare
