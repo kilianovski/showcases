@@ -31,5 +31,9 @@ drawSquare = do
     turnRight
     idle 3
 
+    move 12
+    turnRight
+    idle 3
+
     penUp
     reportStatus "Finished the square drawing."
